@@ -19,9 +19,6 @@ img {
     padding: 2px; 
 }
 
-.logo {
-    
-}
 
 .enlaces {
     display: flex;
@@ -36,4 +33,34 @@ img {
 
 .enlaces a:hover{
     border-bottom: 2px solid #FFFFFF;
+}
+
+.presentacion {
+    background-image: url(img/fondo.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.imagen {
+    margin-top: -25px;
+    margin-bottom: 20px;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contenido {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.titulo{
+color: #886520;
+margin-bottom: 50px;
+
 }
