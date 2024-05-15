@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Satisfy&display=swap');
+    </style>
     <title>Reservas</title>
 </head>
 <body class="reserva">
@@ -18,6 +21,16 @@
                 <a href="index.html">Contacto</a>
             </div>
         </nav>
+        <div class="centered-form">
+        <form class="form" action="procesar_reserva.php" method="POST">
+            <h2 class="h2-form">Reserva</h2>
+            <input type="text" id="base" name="nombre_apellido" placeholder="Ingrese su nombre y apellido">
+            <input type="email" id="altura" name="correo" placeholder="Ingrese su correo electrónico">
+            <input type="date" id="fecha" name="fecha" placeholder="Seleccione la fecha">
+            <input type="time" id="hora" name="hora" placeholder="Seleccione el horario">
+            <button type="submit">Enviar</button>
+        </form>
+        </div>
     </header>
 </body>
 </html>
