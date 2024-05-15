@@ -21,6 +21,7 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 2px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -87,6 +88,12 @@ body.reserva, .carta{
 
 .servicios{
     text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.titulo-servicios{
+    font-size: 50px;
+    font-family: "Great Vibes", cursive;
+    color: #886520;
 }
 .lista-servicios{
     display: flex;
@@ -98,6 +105,8 @@ body.reserva, .carta{
 span{
     text-align: center;
     margin-top: 10px;
+    font-weight: bold;
+    
 }
 .logos{
     margin-right: 3px; 
@@ -114,5 +123,5 @@ span{
     margin-top: 6.4px;
 }
 #ambiente{
-    margin-right: 37px;
+    margin-right: 38px;
 }
