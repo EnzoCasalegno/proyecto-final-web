@@ -202,13 +202,22 @@ span {
     width: 30%;
     height: auto;
     margin-top: 50px;
+    transition: transform 0.5s ease-in-out;
 }
 .menu-2{
     width: 30%;
     height: auto;
     margin-top: 50px;
+    transition: transform 0.5s ease-in-out;
 }
 
+.menu-1:hover{
+    transform: scale(1.1);
+}
+.menu-2:hover{
+    transform: scale(1.1);
+    
+}
 .titulo-menu{
     color: #886520;
     text-align: center;
