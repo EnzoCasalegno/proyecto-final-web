@@ -98,7 +98,7 @@ body.reserva,
 
 .servicios {
     text-align: center;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
 }
 
 .titulo-servicios {
@@ -188,4 +188,31 @@ span {
 
 .form button:hover {
     background-color: #ca9730;
+}
+
+.menus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu-1{
+    width: 30%;
+    height: auto;
+    margin-top: 50px;
+}
+.menu-2{
+    width: 30%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.titulo-menu{
+    color: #886520;
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Great Vibes", cursive;
+    font-size: 70px;
 }
