@@ -203,6 +203,7 @@ span {
     height: auto;
     margin-top: 50px;
     transition: transform 0.5s ease-in-out;
+    
 }
 .menu-2{
     width: 20%;
@@ -213,6 +214,7 @@ span {
 
 .menu-1:hover{
     transform: scale(1.2);
+    filter: drop-shadow(5px 5px 3px );
 }
 .menu-2:hover{
     transform: scale(1.2);
@@ -223,4 +225,9 @@ span {
     margin-top: 50px;
     font-family: "Great Vibes", cursive;
     font-size: 70px;
+}
+
+footer{
+    background-color: #886520;
+    height: 100px;
 }
