@@ -10,7 +10,6 @@ var imagenes = [
 //Declaracion de variables
 var index = 0;
 
-
 //Funcion para ver img
 function verImg() {
     let actImg = document.querySelector('.img');
