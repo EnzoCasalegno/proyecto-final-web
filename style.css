@@ -153,12 +153,13 @@ span {
     border: 2px solid #ccc;
     border-radius: 10px;
     padding: 40px;
-    width: 400px;
+    width: 500px;
+    height: 700px;
     text-align: center;
-
 }
 
 .form h2 {
+    font-size: 50px;
     margin-top: 20px;
     margin-bottom: 30px;
     font-family: "Great Vibes", cursive;
@@ -177,6 +178,7 @@ span {
 }
 
 .form button {
+    font-size: 20px;
     width: 50%;
     padding: 10px;
     margin-top: 50px;
@@ -290,7 +292,6 @@ footer {
     right: 10px;
 }
 
-
 .nombre-footer {
     margin: 0;
     font-size: 1.5em;
@@ -306,4 +307,15 @@ iframe {
     box-shadow: 0 0 40px;
     display: flex;
     justify-content: center;
+}
+
+
+#formAvisos {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 40px;
+    width: 380px; 
+    margin: 50px auto 0; 
+    font-size: 15px;
+    text-align: left;
 }

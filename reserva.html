@@ -22,15 +22,19 @@
             </div>
         </nav>
         <div class="centered-form">
-        <form class="form" action="procesar_reserva.php" method="POST">
+        <form id="reservaFrm" class="form" action="procesar_reserva.php" method="POST">
             <h2 class="h2-form">Reserva</h2>
-            <input type="text" id="base" name="nombre_apellido" placeholder="Ingrese su nombre y apellido">
-            <input type="email" id="altura" name="correo" placeholder="Ingrese su correo electrónico">
+            <input type="text" id="nombre_apellido" name="nombre_apellido" placeholder="Ingrese su nombre y apellido">
+            <input type="email" id="email" name="correo" placeholder="Ingrese su correo electrónico">
+            <input type="text" id="celular" name="celular" placeholder="Ingrese su numero de telefono">
             <input type="date" id="fecha" name="fecha" placeholder="Seleccione la fecha">
             <input type="time" id="hora" name="hora" placeholder="Seleccione el horario">
+            <div id="formAvisos"></div>
             <button type="submit">Enviar</button>
         </form>
+        
         </div>
     </header>
+    <script defer src="reserva.js"></script>
 </body>
 </html>
