@@ -55,7 +55,7 @@ document.getElementById('reservaFrm').addEventListener('submit', function (event
             //Probando si puedo poner espacios entre lineas 
             frmEnviado.textContent = "Reserva a Nombre de: "+ nombreApellido + "\n Enviamos un mensaje para confirmar reserva: " + celular + " \n en el dia de Fecha: " + fecha + "  a las : " + hora + " hs";
             formCartel.appendChild(frmEnviado);
-            // document.getElementById('reservaFrm').reset();
+            document.getElementById('reservaFrm').reset();
         }
     };
 

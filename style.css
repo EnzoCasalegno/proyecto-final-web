@@ -6,6 +6,7 @@
 
 body {
     background-image: url(img/fondo.jpg);
+    background-repeat: repeat;
     background-attachment: fixed;
 }
 
@@ -237,11 +238,12 @@ footer {
     background-color: #886520;
     height: 250px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
-    gap: 150px;
+    gap: 100px;
     align-items: center;
 }
+
 
 .carrousel {
     background-color: #886520;
@@ -258,18 +260,18 @@ footer {
     display: flex;
     transition: all .5s ease;
     transform: translateX(0%);
-    width: 100%; 
+    width: 100%;
     height: 100%;
     justify-content: center;
     align-items: center;
 }
 
 .carrousel .imagenes .img {
-    width: auto; 
-    height: 80%; 
-    max-height: 100%; 
-    object-fit: contain; 
-    
+    width: auto;
+    height: 80%;
+    max-height: 100%;
+    object-fit: contain;
+
 }
 
 
@@ -284,6 +286,7 @@ footer {
     cursor: pointer;
     z-index: 1;
 }
+
 .carrousel #izquierda {
     left: 10px;
 }
@@ -293,6 +296,8 @@ footer {
 }
 
 .nombre-footer {
+    display: flex;
+    justify-content: center;
     margin: 0;
     font-size: 1.5em;
     text-align: center;
@@ -300,7 +305,8 @@ footer {
 
 .tx-footer {
     margin-top: 5px;
-    font-size: 1em;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 iframe {
@@ -314,8 +320,33 @@ iframe {
     border: 2px solid #ccc;
     border-radius: 10px;
     padding: 40px;
-    width: 380px; 
-    margin: 50px auto 0; 
+    width: 380px;
+    margin: 50px auto 0;
     font-size: 15px;
     text-align: left;
+}
+
+.conteiner-logos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logos-foot {
+    margin-right: 10px; 
+    height: 35px; 
+    width: auto; 
+    padding: 5px; 
+}
+
+.texto-logo{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.boton-inicio{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 50px;
 }
