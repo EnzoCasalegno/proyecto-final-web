@@ -351,10 +351,11 @@ iframe {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    width: 50px;
+    width: 30px;
+    
 }
 
 #frmEnviado.frmExito{
     font-size: 15px;
-
+    font-weight: bold;
 }
