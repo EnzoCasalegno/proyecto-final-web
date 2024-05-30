@@ -45,7 +45,6 @@ img {
 }
 
 .presentacion {
-    /* background-image: url(img/fondo.jpg); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,7 +88,6 @@ p {
     font-size: 150%;
 }
 
-/** Background de pagina reserva  */
 body.reserva,
 .carta {
     background-image: url(img/fondo.jpg);
@@ -99,8 +97,6 @@ body.reserva,
 
 .servicios {
     text-align: center;
-
-    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
 }
 
 .titulo-servicios {
@@ -237,7 +233,7 @@ span {
 
 footer {
     background-color: #886520;
-    height: 250px;
+    height: 300px;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -287,11 +283,11 @@ footer {
 }
 
 .carrousel #izquierda {
-    left: 10px;
+    left: 400px;
 }
 
 .carrousel #derecha {
-    right: 10px;
+    right: 400px;
 }
 
 
