@@ -8,6 +8,12 @@ body {
     background-image: url(img/fondo.jpg);
     background-repeat: repeat;
     background-attachment: fixed;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+body::-webkit-scrollbar{
+    display: none;
 }
 
 img {
@@ -346,4 +352,9 @@ iframe {
     flex-direction: row;
     align-items: flex-end;
     width: 50px;
+}
+
+#frmEnviado.frmExito{
+    font-size: 15px;
+
 }

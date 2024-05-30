@@ -49,16 +49,14 @@ document.getElementById('reservaFrm').addEventListener('submit', function (event
 
         if (errores.length > 0) {
             formCartel.innerHTML = "<ul><li>" + errores.join("</li><li>") + "</li>  </ul>";
-            formCartel.className = "error";
         }else{
             const frmEnviado = document.createElement('p');
-            //Probando si puedo poner espacios entre lineas 
             frmEnviado.textContent = "Reserva a Nombre de: "+ nombreApellido + "\n Enviamos un mensaje para confirmar reserva: " + celular + " \n en el dia de Fecha: " + fecha + "  a las : " + hora + " hs";
             formCartel.appendChild(frmEnviado);
             document.getElementById('reservaFrm').reset();
+            frmEnviado.className = "frmExito";
         }
     };
-
 
     validacion();
 });
