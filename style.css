@@ -2,14 +2,15 @@
     padding: 0%;
     margin: 0%;
     font-family: century gothic;
+    
 }
 
 body {
     background-image: url(img/fondo.jpg);
     background-repeat: repeat;
-    background-attachment: fixed;
     overflow-y: scroll;
     overflow-x: scroll;
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar{
@@ -351,8 +352,8 @@ iframe {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    width: 30px;
-    
+    width: 40px;
+    margin-right: 20px;
 }
 
 #frmEnviado.frmExito{
