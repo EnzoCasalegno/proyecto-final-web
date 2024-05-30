@@ -224,6 +224,7 @@ span {
 
 .menu-2:hover {
     transform: scale(1.2);
+    filter: drop-shadow(5px 5px 3px);
 }
 
 .titulo-menu {
@@ -247,7 +248,7 @@ footer {
 
 .carrousel {
     background-color: #886520;
-    height: 400px;
+    height: 700px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -271,17 +272,15 @@ footer {
     height: 80%;
     max-height: 100%;
     object-fit: contain;
-
 }
-
 
 .carrousel button {
     position: absolute;
+    background-color: #886520;
+    border-radius: 100px;
+    border: none;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
     padding: 10px;
     cursor: pointer;
     z-index: 1;
@@ -294,6 +293,8 @@ footer {
 .carrousel #derecha {
     right: 10px;
 }
+
+
 
 .nombre-footer {
     display: flex;
