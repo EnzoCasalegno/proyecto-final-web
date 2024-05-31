@@ -34,7 +34,7 @@ document.getElementById('reservaFrm').addEventListener('submit', function (event
         if (celular.length === 0) {
             errores.push('Debe completar el campo de celular.');
         }else if (!/^\d{10}$/.test(celular)){
-            errores.push("Debe ingresar solo ( 10 ) digitos numericos.")
+            errores.push("Debe ingresar solo ( 10 ) digitos numéricos.")
         }
 
         if (fecha.length === 0) {
@@ -42,8 +42,8 @@ document.getElementById('reservaFrm').addEventListener('submit', function (event
         }
         if (hora.length === 0) {
             errores.push("Debe completar el campo de hora.")
-        }else if ((hours < 9 || (hours >= 18 && minutes > 0))) {
-            errores.push("La hora de reserva debe estar entre las 09:00 hs y las 18:00 hs.");
+        }else if ((hours < 17 || (hours >= 23 && minutes > 0))) {
+            errores.push("La hora de reserva debe estar entre las 17:00 hs y las 23:00 hs.");
         }
 
 
@@ -51,7 +51,7 @@ document.getElementById('reservaFrm').addEventListener('submit', function (event
             formCartel.innerHTML = "<ul><li>" + errores.join("</li><li>") + "</li>  </ul>";
         }else{
             const frmEnviado = document.createElement('p');
-            frmEnviado.textContent = "Reserva a Nombre de: "+ nombreApellido + "\n Enviamos un mensaje para confirmar reserva: " + celular + " \n en el dia de Fecha: " + fecha + "  a las : " + hora + " hs";
+            frmEnviado.textContent = "Reserva a Nombre de: "+ nombreApellido + "\n Enviamos un mensaje para confirmar reserva al número: " + celular + " \n en el dia de Fecha: " + fecha + "  a las : " + hora + " hs";
             formCartel.appendChild(frmEnviado);
             document.getElementById('reservaFrm').reset();
             frmEnviado.className = "frmExito";
