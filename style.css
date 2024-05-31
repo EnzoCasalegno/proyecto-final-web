@@ -353,7 +353,7 @@ iframe {
     flex-direction: row;
     align-items: flex-end;
     width: 40px;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 #frmEnviado.frmExito{
